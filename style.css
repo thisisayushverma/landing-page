@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: DM Serif Display;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 10%;
+    align-items: center;
+}
+  
+
+nav div{
+    display: inline;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+.links li {
+    text-transform: uppercase;
+    color: hsl(273, 4%, 51%);
+    font-weight: 500;
+    font-family: Karla;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.links button{
+    border: 2px solid hsl(256, 26%, 20%);
+    text-transform: uppercase;
+    font-family: Karla;
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 0.8rem 1.6rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.links li:hover{
+    color: #000000;
+}
+
+.links button:hover{
+    background: hsl(256, 26%, 20%);
+    color: #fff;
+}
